@@ -60,17 +60,7 @@ public class MyDate {
        MyDate d2 = new MyDate(20,10,2020);
        System.out.println("Parameterized constructor");
        d2.display();
-       MyDate d3 = new MyDate();
-       Scanner in = new Scanner(System.in);
-       System.out.println("Enter Day");
-       int day = in.nextInt();
-       System.out.println("Enter Month");
-       int month = in.nextInt();
-       System.out.println("Enter Year");
-       int year = in.nextInt();
-       d3.set(day,month,year);
-       System.out.println("User Input");
-       d3.display();
+      
 
     }
 }
